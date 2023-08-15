@@ -1,0 +1,44 @@
+
+
+<section class="expenses&income">
+  <div class="container">
+    <h1 class="mb-4">Доходы и расходы</h1>
+    <div class="mb-5">
+      <a href="#/add_incomeOrExpenses"><button class="change btn btn-success me-2">Создать доход</button></a>
+      <a href="#/add_incomeOrExpenses"><button class="delete rounded btn-danger btn">Создать расход</button></a>
+    </div>
+
+    <div class="date d-flex flex-row align-items-end">
+      <button class="btn btn-outline-secondary me-3 active date-btn" id="today">Сегодня</button>
+      <button class="btn btn-outline-secondary me-3 date-btn" id="week">Неделя</button>
+      <button class="btn btn-outline-secondary me-3 date-btn" id="month">Месяц</button>
+      <button class="btn btn-outline-secondary me-3 date-btn" id="year">Год</button>
+      <button class="btn btn-outline-secondary me-3 date-btn" id="all">Все</button>
+      <button class="btn btn-outline-secondary me-3 date-btn" id="interval">Интервал</button>
+      <div class="date-time d-flex align-items-center ">
+        <div class="text">c</div>
+        <input type="date" class="time border-0 me-2" id="dateFrom">
+        <div class="text ">по</div>
+        <input type="date" class="time border-0 me-1" id="dateTo">
+      </div>
+    </div>
+    <div class="info" id="info">
+        <div class="operation fw-700 info-main">№ операции</div>
+        <div class="type fw-700 info-main">Тип</div>
+        <div class="info-category fw-700 info-main">Категория</div>
+        <div class="sum fw-700 info-main">Сумма</div>
+        <div class="info-date fw-700 info-main">Дата</div>
+        <div class="comment fw-700 info-main">Комментарий</div>
+        <div class="line"></div>
+
+
+  </div>
+  </div>
+</section>
+<div class="pop-up-delete" id="pop-up">
+  <div class="pop-up-container rounded fw-500">
+    <div class="pop-up-text">Вы действительно хотите удалить операцию?</div>
+    <button class="pop-up-btn-yes btn btn-success " id="success">Да, удалить</button>
+    <button class="pop-up-btn-no btn btn-danger" id="danger">Не удалять</button>
+  </div>
+</div>
