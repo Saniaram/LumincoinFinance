@@ -1,0 +1,22 @@
+
+
+<section>
+  <div class="container">
+    <h1 class="mb-4" id="name">Создание дохода/расхода</h1>
+    <select class="form-control mb-2 select-width text-gray" name="type"  id="choose">
+      <option value="none" selected disabled>Тип...</option>
+      <option value="income">Доход</option>
+      <option value="expense">Расход</option>
+    </select>
+    <select class="form-control mb-2 select-width text-gray"  name="category" id="chooseCategory">
+      <option value="none" class="text-gray" disabled selected>Категория...</option>
+    </select>
+    <input type="number" class="form-control mb-2" id="sum" placeholder="Сумма в $..." aria-label="Username" aria-describedby="basic-addon1">
+    <input type="date" class="form-control mb-2" id="date" placeholder="Дата..." aria-label="Username" aria-describedby="basic-addon1">
+    <input type="text" class="form-control mb-4" id="comment" placeholder="Комментарий..." aria-label="Username" aria-describedby="basic-addon1">
+    <div class="">
+      <button class="change btn btn-success me-2" id="create">Создать</button>
+      <a href="#/incomeAndExpenses"><button class="delete rounded btn-danger btn" >Отмена</button></a>
+    </div>
+  </div>
+</section>

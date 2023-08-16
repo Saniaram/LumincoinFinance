@@ -1,0 +1,24 @@
+
+
+<div class="container">
+    <h1 class="mb-4">Главная</h1>
+
+    <div class="date d-flex flex-row align-items-end">
+        <button class="btn btn-outline-secondary me-3 date-btn active" id="today">Сегодня</button>
+        <button class="btn btn-outline-secondary me-3 date-btn" id="week">Неделя</button>
+        <button class="btn btn-outline-secondary me-3 date-btn" id="month">Месяц</button>
+        <button class="btn btn-outline-secondary me-3 date-btn" id="year">Год</button>
+        <button class="btn btn-outline-secondary me-3 date-btn" id="all">Все</button>
+        <button class="btn btn-outline-secondary me-3 date-btn" id="interval">Интервал</button>
+        <div class="date-time d-flex align-items-center ">
+            <div class="text">c</div>
+            <input type="date" class="time border-0 me-2" id="dateFrom">
+            <div class="text ">по</div>
+            <input type="date" class="time border-0 me-1" id="dateTo">
+        </div>
+    </div>
+    <div class="Pie d-flex mt-5 pt-4">
+        <canvas id="myChart1"></canvas>
+        <canvas id="myChart2"></canvas>
+    </div>
+</div>
